@@ -1,6 +1,6 @@
-# ¿Lloverá mañana? — Módulo 12
+# Estimador de valor de vivienda — Módulo 12
 
-Regresión logística (Módulo 8) desplegada como API con FastAPI en Vercel.
+Regresión lineal (Módulo 6) entrenada con descenso de gradiente y desplegada como API con FastAPI.
 
 ## Enlaces
 - App: https://TU-PROYECTO.vercel.app
@@ -9,10 +9,10 @@ Regresión logística (Módulo 8) desplegada como API con FastAPI en Vercel.
 ## Archivos
 | Archivo | Rol |
 |---|---|
-| `modelo.json` | Pesos, sesgo, umbral y métricas del modelo |
-| `main.py` | API: calcula la probabilidad en `/predict` |
-| `index.html` | Página con los deslizadores |
+| `modelo.json` | Pesos, sesgo, medias y desviaciones del modelo entrenado |
+| `main.py` | API: carga el modelo y responde en `/predict` |
+| `index.html` | Página con el formulario |
 | `requirements.txt` | Dependencias del servidor |
 
 ## Reflexión
-(Escribe aquí tus respuestas a los retos del notebook)
+(Escribe aquí tus respuestas a las preguntas del final del notebook)
